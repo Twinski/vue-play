@@ -2,7 +2,7 @@
   <figure class="sidebar" ref="sidebar" v-show="leftPanelExpanded" :style="{width: sidebarWidth}">
     <div class="resize-indicator" v-if="resizing">W: {{ sidebarWidth }}</div>
     <div class="sidebar-border" @mousedown="handleMouseDown" @mouseup="handleMouseUp"></div>
-    <h1 @click="toggleHelp">Vue Play</h1>
+    <h1 @click="toggleHelp">Vue Playyyyyy</h1>
     <div class="sidebar-search">
       <input @input="filter" placeholder="Type to filter components..." />
     </div>
